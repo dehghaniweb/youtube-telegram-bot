@@ -6,5 +6,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo "GitHub Actions is working"
+      - name: Test GitHub Actions
+        run: echo "GitHub Actions is working"
